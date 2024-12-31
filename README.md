@@ -25,11 +25,11 @@ We introduce `MuseTalk`, a **real-time high quality** lip-syncing model (30fps+ 
 `MuseTalk` is a real-time high quality audio-driven lip-syncing model trained in the latent space of `ft-mse-vae`, which
 
 1. modifies an unseen face according to the input audio, with a size of face region of `256 x 256`.
-1. supports audio in various languages, such as Chinese, English, and Japanese.
-1. supports real-time inference with 30fps+ on an NVIDIA Tesla V100.
-1. supports modification of the center point of the face region proposes, which **SIGNIFICANTLY** affects generation results. 
-1. checkpoint available trained on the HDTF dataset.
-1. training codes (comming soon).
+2. supports audio in various languages, such as Chinese, English, and Japanese.
+3. supports real-time inference with 30fps+ on an NVIDIA Tesla V100.
+4. supports modification of the center point of the face region proposes, which **SIGNIFICANTLY** affects generation results. 
+5. checkpoint available trained on the HDTF dataset.
+6. training codes (comming soon).
 
 # News
 - [04/02/2024] Release MuseTalk project and pretrained models.
